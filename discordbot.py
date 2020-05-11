@@ -14,8 +14,8 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
+async def e8s(ctx):
+    await message.send_message(message.channel, "./e8s.txt")
 
 
 bot.run(token)
