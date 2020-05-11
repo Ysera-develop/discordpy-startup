@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def e8s(ctx):
-await ctx.send(ctx.channel, "./e8s.txt")
+await ctx.send_message(ctx.channel, "./e8s.txt")
 
 
 bot.run(token)
